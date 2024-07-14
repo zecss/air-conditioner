@@ -73,7 +73,7 @@ const Copyright: React.FC = () => {
         {`2019 - ${new Date().getFullYear()}`}
       </p>
       <div className="text-center">
-        {socialList.map(item => (
+{/*         {socialList.map(item => (
           <Tooltip title={item.label} arrow key={item.type}>
             <IconButton
               sx={{ color: item.color }}
@@ -83,7 +83,7 @@ const Copyright: React.FC = () => {
               <div className={`${item.icon} text-lg`} />
             </IconButton>
           </Tooltip>
-        ))}
+        ))} */}
       </div>
     </div>
   )
