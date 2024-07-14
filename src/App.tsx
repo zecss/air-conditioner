@@ -64,7 +64,7 @@ const App: FC = () => {
           <Routes />
         </Router>
 
-
+        <Copyright />
       </div>
     </main>
   )
